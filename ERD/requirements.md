@@ -50,3 +50,4 @@
   recipient_id: Foreign Key, references User(user_id)  
   message_body: TEXT, NOT NULL  
   sent_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP  
+
