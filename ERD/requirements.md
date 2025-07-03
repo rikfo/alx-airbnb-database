@@ -55,4 +55,4 @@
 
 #  Entity-Relationship (ER)
 
-![Entity Relationship Diagram](https://drive.google.com/file/d/1dtUGUCtINDQYBYLlK0tpUPs31VGULfTj/view?usp=sharing)
+![Entity Relationship Diagram](https://github.com/rikfo/alx-airbnb-database/blob/main/ERD/alx-airbnb-database.drawio.png)
