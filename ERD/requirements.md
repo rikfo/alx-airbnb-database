@@ -51,3 +51,8 @@
   message_body: TEXT, NOT NULL  
   sent_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP  
 
+---
+
+#  Entity-Relationship (ER)
+
+![Entity Relationship Diagram](https://drive.google.com/file/d/1dtUGUCtINDQYBYLlK0tpUPs31VGULfTj/view?usp=sharing)
