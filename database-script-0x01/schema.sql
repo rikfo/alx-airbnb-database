@@ -3,6 +3,8 @@ CREATE TYPE user_role AS ENUM ('guest', 'host', 'admin');
 
 CREATE TYPE booking_status AS ENUM ('pending', 'confirmed', 'canceled');
 
+CREATE TYPE payment_method AS ENUM ('credit_card','paypal','stripe');
+
 CREATE TABLE IF NOT EXISTS users (
 user_id UUID PRIMARY KEY,
 first_name VARCHAR(100) NOT NULL,
@@ -47,7 +49,7 @@ payment_id UUID PRIMARY KEY,
 booking_id FOREIGN KEY references Booking(booking_id),
 amount DECIMAL NOT NULL,
 payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-payment_method ENUM (credit_card, paypal, stripe) NOT NULL
+payment_method payment_method NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS review (
